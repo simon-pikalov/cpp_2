@@ -20,9 +20,6 @@ class Tree {       // The class
     T:mother=mother;
     }
 
-
-    void Tree(std::string name);
-
     Tree& addFather(string prsoon, string father);
 
     Tree& addMother(string prsoon, string mother);
