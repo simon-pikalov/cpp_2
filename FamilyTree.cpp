@@ -14,7 +14,16 @@ Tree& Tree::addMother(string to, string name){
 }
 
 void Tree::display(){
-// "TO_DO";
+if(father!=NULL) cout<<me<<"mother : "<<this->mother->me;
+if(mother!=NULL)cout<<me<<"father : "<<this->father->me;
+Tree* father = this->father;
+Tree* mother = this->father;
+ if(father!=NULL) father->display();
+if(mother!=NULL)mother->display();
+
+
+
+
 }
 
 string Tree::relation(string name){
